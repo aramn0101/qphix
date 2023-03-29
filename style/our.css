@@ -1,88 +1,94 @@
-@import url('https:/fonts.googleapis.com/css?family=poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url("https:/fonts.googleapis.com/css?family=poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --primary-color: #f57505;
+  --font-default: bahnschrift;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  width: 100%;
+  height: 70px;
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
-.navbar{
-    width: 100%;
-    height: 70px;
-  
-    background-color: black;
-    position: fixed;
-    top: 0;
-    
-}
-
-.logo{
-    
-    margin-left: 20px;
-    font-family: 'poppins',sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-.navbar ul{
-    float: right;
-    margin-top: -3px;
-    margin-right: 15px;
-}
-.navbar ul li a{
-    color: white;
-    padding: 7px 15px;
-    border-radius: 10px;
-    font-family: 'poppins',sans-serif;
-    text-decoration: none; 
-    font-weight: bold; 
-}
-.navbar ul li{
-    display: inline-block;
-
-    color:white;
-}
-.navbar ul li a:hover{
-    color: gray;
-}
-.navbar a.active,a:hover{
-    color: orange;
-}
-#btn{
-    font-size: 40px;
-    float: right;
-}
-.navbar-brand{
-    margin-left: 20px;
-}
-.line{
-    color:white;
-    font-weight: bold;
-}
-.our{
-    margin-top: 100px;
-    color: orange;
-    text-align: center;
-    font-family: 'poppins',sans-serif;
-  
+  background-color: black;
+  position: fixed;
+  top: 0;
 }
 
-.row .icon_box{
-    position: relative;
-    padding:0px;
-    background: #fff;
-    border-radius: 10px;
-    cursor: pointer;
+.logo {
+  margin-left: 20px;
+  font-family: bahnschrift;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
-#box{
-    position: relative;
-    top: -15px;
+.navbar ul {
+  float: right;
+  margin-top: -3px;
+  margin-right: 15px;
 }
-#box1{
-    position: relative;
-   top: 5px;
+.navbar ul li a {
+  color: white;
+  padding: 7px 15px;
+  border-radius: 10px;
+  font-family: bahnschrift;
+  text-decoration: none;
+  font-weight: bold;
 }
-p{
-    font-family: 'poppins',sans-serif;
- 
-    
+.navbar ul li {
+  display: inline-block;
+
+  color: white;
+}
+.navbar ul li a:hover {
+  color: gray;
+}
+.navbar a.active,
+a:hover {
+  color: orange;
+}
+#btn {
+  font-size: 40px;
+  float: right;
+}
+.navbar-brand {
+  margin-left: 20px;
+}
+.line {
+  color: white;
+  font-weight: bold;
+}
+.our {
+  margin-top: 100px;
+  color: var(--primary-color);
+  text-align: center;
+  font-family: bahnschrift;
+}
+
+.row .icon_box {
+  position: relative;
+  padding: 0px;
+  background: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#box {
+  position: relative;
+  top: -15px;
+}
+#box1 {
+  position: relative;
+  top: 5px;
+}
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#demo:hover {
+  color: white;
+}
+.logo:hover {
+  color: white;
 }

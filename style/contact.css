@@ -1,6 +1,7 @@
 @import url("https:/fonts.googleapis.com/css?family=poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 :root {
   --primary-color: #f57505;
+  --font-default: bahnschrift;
 }
 * {
   margin: 0px;
@@ -17,7 +18,7 @@
 
 .logo {
   margin-left: 20px;
-  font-family: "poppins", sans-serif;
+  font-family: "bahnschrift";
   font-weight: bold;
   text-decoration: none;
   color: white;
@@ -32,7 +33,7 @@
   color: white;
   padding: 7px 15px;
   border-radius: 10px;
-  font-family: "poppins", sans-serif;
+  font-family: "bahnschrift";
   text-decoration: none;
   font-weight: bold;
 }
@@ -46,7 +47,7 @@
 }
 .navbar a.active,
 a:hover {
-  color: orange;
+  color: var(--primary-color);
 }
 #btn {
   font-size: 40px;
@@ -62,8 +63,8 @@ a:hover {
 .our {
   position: relative;
   top: 50px;
-  color: orange;
-  font-family: "poppins", sans-serif;
+  color: var(--primary-color);
+  font-family: "bahnschrift";
 }
 hr {
   position: relative;
@@ -125,12 +126,12 @@ hr {
   height: 50px;
   left: 70px;
   border-radius: 10px;
-  background-color: orange;
+  background-color: var(--primary-color);
 }
 .bt {
   border: none;
   outline: none;
-  background-color: orange;
+  background-color: var(--primary-color);
   padding-top: 10px;
 }
 footer {
@@ -178,8 +179,17 @@ footer {
 }
 #box1 {
   position: relative;
-
-  left: 25px;
+  left: 35px;
+}
+#demo:hover {
+  color: white;
+}
+.logo:hover {
+  color: white;
+}
+#box2 {
+  position: relative;
+  left: 10px;
 }
 
 @media (min-width: 800px) {
