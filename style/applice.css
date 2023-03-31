@@ -247,7 +247,7 @@ footer {
   align-items: center;
   box-shadow: 5px 5px 20px var(--shadow);
   border-radius: 20px;
-  margin: 50px;
+  margin: 20px;
 }
 .containe .Section {
   flex-basis: 50%;
@@ -337,6 +337,10 @@ footer {
   .btn2 {
     position: relative;
     bottom: 10px;
+  }
+  .center {
+    position: relative;
+    top: -30px;
   }
 }
 
