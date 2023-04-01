@@ -249,10 +249,6 @@ footer {
     position: relative;
     top: 10px;
   }
-  .btn2 {
-    position: relative;
-    bottom: 10px;
-  }
 }
 
 @media (min-width: 800px) {
