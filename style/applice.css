@@ -380,7 +380,7 @@ footer {
 @media (max-width: 700px) {
   .ser {
     width: 100%;
-    height: 80vh;
+    height: 85vh;
   }
   #image3 {
     display: none;
