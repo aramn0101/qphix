@@ -382,7 +382,6 @@ footer {
   .ser {
     width: 100%;
     height: 100vh;
-    display: flex;
   }
   #image3 {
     display: none;
@@ -418,6 +417,19 @@ footer {
   }
 }
 @media screen and(max-width:400px) {
+  .ser {
+    width: 100%;
+    height: 100vh;
+  }
+  #image3 {
+    display: none;
+  }
+  #image4 {
+    display: none;
+  }
+  #image5 {
+    display: none;
+  }
   .icon {
     position: relative;
     right: 40px;
