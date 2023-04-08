@@ -245,9 +245,8 @@ footer {
   padding: 30px;
   justify-content: center;
   align-items: center;
-  box-shadow: 5px 5px 20px var(--shadow);
+
   border-radius: 20px;
-  margin: 20px;
 }
 .containe .Section {
   flex-basis: 50%;
