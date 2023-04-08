@@ -367,32 +367,20 @@ footer {
     display: none;
   }
 }
-@media (max-width: 766px) {
-  #box1 {
-    position: relative;
-    left: 33px;
-  }
-  #box2 {
-    position: relative;
-    left: 10px;
-  }
-}
+
 @media (max-width: 700px) {
   .ser {
     width: 100%;
-    height: 700px;
+    height: 95vh;
   }
   #image3 {
     display: none;
-    height: 700px;
   }
   #image4 {
     display: none;
-    height: 700px;
   }
   #image5 {
     display: none;
-    height: 700px;
   }
 }
 
@@ -421,7 +409,7 @@ footer {
 @media screen and(max-width:400px) {
   .ser {
     width: 100%;
-    height: 100vh;
+    height: 95vh;
   }
   #image3 {
     display: none;
@@ -431,23 +419,5 @@ footer {
   }
   #image5 {
     display: none;
-  }
-  .icon {
-    position: relative;
-    right: 40px;
-  }
-  #row {
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .container {
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
   }
 }
