@@ -11,7 +11,7 @@
   list-style: none;
 }
 body {
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 .navbar {
@@ -55,22 +55,23 @@ body {
 a:hover {
   color: var(--primary-color);
 }
-
+/*
 #btn {
   font-size: 40px;
   float: right;
 }
+/*
 .navbar-brand {
   margin-left: 20px;
-}
+}*/
 .line {
   color: white;
   font-weight: bold;
 }
-
+/*
 .carousel-inner {
   margin-top: 50px;
-}
+}*/
 .imgbackground {
   position: absolute;
   top: 1px;
@@ -94,7 +95,7 @@ a:hover {
 .logo:hover {
   color: white;
 }
-
+/*
 .row .icon_box {
   width: 250px;
   height: 300px;
@@ -111,7 +112,7 @@ a:hover {
 .title {
   margin-top: 18px;
   font-family: bahnschrift;
-}
+} 
 .read {
   border: 2px solid var(--primary-color);
   width: 200px;
@@ -119,6 +120,7 @@ a:hover {
   margin-top: 50px;
   border-radius: 15px;
 }
+
 .bt {
   border: 2px solid var(--primary-color);
   outline: none;
@@ -230,6 +232,7 @@ footer {
   position: relative;
   left: 35px;
 }
+*/
 .read:hover {
   background-color: var(--primary-color);
   color: white;
@@ -308,6 +311,33 @@ footer {
   cursor: pointer;
   transition: 0.3s;
 }
+
+.service {
+  min-height: 15vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.service .card {
+  width: 250px;
+  height: 300px;
+  position: relative;
+  margin: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgba(236, 237, 239, 0.5);
+  cursor: pointer;
+  border: none;
+}
+.phone1 {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  cursor: pointer;
+}
 @media (max-width: 500px) {
   .place {
     position: relative;
@@ -319,14 +349,14 @@ footer {
   }
   .btn2 {
     position: relative;
-    right: 20px;
+    right: 0px;
   }
   .containe {
     margin-left: 15px;
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1100px) {
   footer {
     position: relative;
     bottom: 0px;
@@ -357,6 +387,9 @@ footer {
     position: relative;
     top: -30px;
   }
+  .heading {
+    display: block;
+  }
 }
 
 @media (max-width: 995px) {
@@ -382,12 +415,16 @@ footer {
   #image5 {
     display: none;
   }
+  #more {
+    position: relative;
+    top: 10px;
+  }
 }
 
 @media (min-width: 700px) {
   .ser {
     width: 100%;
-    height: 100vh;
+    height: 95vh;
   }
   #image {
     display: none;
@@ -413,5 +450,14 @@ footer {
   }
   #image5 {
     display: none;
+  }
+}
+@media (max-width: 330px) {
+  .logo {
+    font-size: 17px;
+    margin-left: 5px;
+  }
+  #icon {
+    font-size: 17px;
   }
 }
