@@ -423,6 +423,10 @@ footer {
     position: relative;
     top: -0px;
   }
+  .heading {
+    position: relative;
+    top: -50px;
+  }
 }
 
 @media (min-width: 700px) {
