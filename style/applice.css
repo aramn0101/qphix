@@ -331,10 +331,13 @@ footer {
   }
   .chat {
     position: relative;
-    top: 20px;
+    top: -50px;
+  }
+  .contact {
+    height: 650px;
   }
 }
-@media (max-width: 770px) {
+@media (max-width: 800px) {
   .chat {
     position: relative;
     top: -80px;
@@ -348,8 +351,10 @@ footer {
   #activ {
     display: none;
   }
+  .contact {
+    height: 450px;
+  }
 }
-
 @media (max-width: 700px) {
   .ser {
     width: 100%;
@@ -375,6 +380,9 @@ footer {
   .heading {
     position: relative;
     top: -50px;
+  }
+  .contact {
+    height: 650px;
   }
 }
 
