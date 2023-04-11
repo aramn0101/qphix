@@ -237,79 +237,11 @@ footer {
   background-color: var(--primary-color);
   color: white;
 }
-footer {
-  position: relative;
-  width: 100%;
-}
 
-.containe {
-  display: flex;
-  padding: 30px;
-  justify-content: center;
-  align-items: center;
-
-  border-radius: 20px;
-}
-.containe .Section {
-  flex-basis: 50%;
-  padding: 0 20px;
-}
-.Section h2 {
-  font-size: 15px;
-  font-weight: 600;
-  font-family: "poppins", sans-serif;
-  text-transform: uppercase;
-}
-.Section .cont {
-  margin: 20px 0 0 0;
-  width: 100%;
-}
-.left {
-  width: 100%;
-  height: 200px;
-}
-.left h2 {
-  margin-top: 20px;
-}
-.center .cont .text {
-  font-size: 17px;
-  font-weight: 500;
-  padding-left: 90px;
-
-  color: #717171;
-  position: relative;
-  top: -35px;
-}
-.center .cont .phone {
-  margin: 15px 0;
-}
-.place {
-  width: 50px;
-  height: 50px;
-  background-color: var(--primary-color);
-  margin-top: -10px;
-  margin-left: 30px;
-  border-radius: 50px;
-}
 .map {
   font-size: 30px;
   margin-left: 10px;
   margin-top: 10px;
-}
-
-.right form .btn2 {
-  margin-top: 10px;
-}
-.right form .btn2 button {
-  height: 40px;
-  width: 50%;
-  border: none;
-  outline: none;
-  background-color: var(--primary-color);
-  font-size: 13px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: 0.3s;
 }
 
 .service {
@@ -338,21 +270,54 @@ footer {
   right: 40px;
   cursor: pointer;
 }
+.contact {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0 0 20px 0 rgba(236, 237, 239, 0.5);
+  margin: 30px;
+}
+.contact .contactus {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  margin: 30px;
+  background: #fff;
+}
+.circal {
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-color);
+  margin-top: -10px;
+  margin-left: 30px;
+  border-radius: 50px;
+  margin: 5px;
+}
+#circal {
+  position: relative;
+  top: -20px;
+}
+#circal1 {
+  position: relative;
+  top: -15px;
+}
+#circal3 {
+  position: relative;
+  top: -10px;
+}
+
 @media (max-width: 500px) {
-  .place {
+  #text {
     position: relative;
-    right: 20px;
+    right: 50px;
   }
-  .text {
+}
+@media (min-width: 500px) {
+  #text {
     position: relative;
-    right: 15px;
-  }
-  .btn2 {
-    position: relative;
-    right: 0px;
-  }
-  .containe {
-    margin-left: 15px;
+    left: 50px;
   }
 }
 
@@ -361,34 +326,19 @@ footer {
     position: relative;
     bottom: 0px;
   }
-  .left .cont {
-    padding-right: 0px;
-    padding-bottom: 30px;
-  }
-  .containe {
-    flex-wrap: wrap;
-    flex-direction: column;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-  }
-  .containe .Section {
-    margin: 5px 0;
-  }
-  .right {
-    position: relative;
-    top: 10px;
-  }
-  .btn2 {
-    position: relative;
-    bottom: 10px;
-  }
-  .center {
-    position: relative;
-    top: -30px;
-  }
+
   .heading {
     display: block;
+  }
+  .chat {
+    position: relative;
+    top: -50px;
+  }
+}
+@media (max-width: 770px) {
+  .chat {
+    position: relative;
+    top: -80px;
   }
 }
 
