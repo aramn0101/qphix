@@ -419,4 +419,12 @@ footer {
   #icon {
     font-size: 17px;
   }
+  #text2 {
+    position: relative;
+    right: 4px;
+  }
+  #contactus {
+    position: relative;
+    top: 20px;
+  }
 }
