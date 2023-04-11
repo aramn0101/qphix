@@ -307,6 +307,11 @@ footer {
   position: relative;
   top: -10px;
 }
+.con {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
 
 @media (max-width: 500px) {
   #text {
