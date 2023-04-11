@@ -325,7 +325,6 @@ footer {
 @media (max-width: 1100px) {
   footer {
     position: relative;
-    bottom: 0px;
   }
 
   .heading {
@@ -418,5 +417,13 @@ footer {
   }
   #icon {
     font-size: 17px;
+  }
+  #text2 {
+    position: relative;
+    right: 4px;
+  }
+  #contactus {
+    position: relative;
+    top: 20px;
   }
 }
