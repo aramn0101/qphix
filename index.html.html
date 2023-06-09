@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 302px;
+        height: 175px;
+        position: relative;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+        margin: 300px auto;
+      }
+      #number,
+      #verfiycode {
+        width: calc(100% -24px);
+        padding: 10px;
+        font-size: 20px;
+        margin-bottom: 5px;
+        outline: none;
+      }
+      #recaptcha {
+        margin-bottom: 5px;
+      }
+      #send,
+      #verify {
+        margin-top: 15px;
+        width: 50%;
+        height: 40px;
+        outline: none;
+        margin-left: 50px;
+      }
+
+      .p-cont {
+        width: calc(100%-22px);
+        border: 2px solid green;
+        border-radius: 4px;
+        padding: 8px 10px;
+        margin: 4px 0px;
+        background-color: rgba(0, 249, 12, 0.5);
+        display: none;
+      }
+      .n-conf {
+        border-color: red;
+        background-color: rgba(255, 0, 4, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="sender">
+        <input type="text" id="number" placeholder="+91" />
+        <div id="recaptcha-container"></div>
+        <input type="button" id="send" value="send" onclick="phoneAuth()" />
+      </div>
+      <div id="verifier" style="display: none">
+        <input type="text" id="verficationcode" placeholder="Otp code" />
+        <input
+          type="button"
+          id="verify"
+          value="Verify"
+          onclick="codeverify()"
+        />
+        <div class="p-conf">Number Verifyed</div>
+        <div class="n-conf">OTP ERRORE</div>
+      </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-auth.js"></script>
+    <script src="otp.js"></script>
+  </body>
+</html>
